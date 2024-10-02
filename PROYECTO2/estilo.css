@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(141, 187, 248);
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section1{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.caja1{
+    background-color: rgb(235, 213, 253);
+    height: 80px;
+    flex: 1;
+}
+.section2{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    text-align: right;
+}
+.caja2{
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 100px;
+    flex: 1;
+}
+.section3{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    gap: 10px;
+}
+.caja3{
+    background-color: rgb(243, 120, 202);
+    height: 500px;
+    flex: 1;
+}
+.section4{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 10px;
+}
+.caja4{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(24, 24, 24, 0.774);
+    height: 400px;
+    flex: 1;
+}
+.caja5{
+    display: flex; 
+    flex-direction: column;   
+    background-color: rgba(97, 97, 97, 0.219);
+    height: 400px;
+    flex: 1;
+    gap: 10px;
+}
+.caja5-1{
+    background-color: rgba(112, 112, 112, 0.068);
+    flex: 1;
+}
+.caja5-2{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 14, 14, 0.288);
+    flex: 2;
+    gap: 10px;
+}
+.img1{
+    flex: 1;
+}
+.texto1{
+    flex: 3;
+}
+.caja5-3{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 102, 0, 0.514);
+    flex: 3;
+    gap: 10px;
+}
+
+.section5{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-direction: row;
+    gap: 10px;
+}
+.caja6{
+    background-color: rgb(53, 168, 0);
+    height: 600px;
+    flex: 1;
+}
+.caja7{
+    display: flex; 
+    flex-direction: column;   
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    flex: 1;
+    gap: 10px;
+}
+.caja7-1{
+    background-color: rgba(135, 121, 255, 0.356);
+    flex: 1;
+}
+.caja7-2{
+    background-color: rgb(255, 38, 74);
+    flex: 1;
+}
+.section6{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: row;
+    gap: 10px;
+}
+.caja8{
+    background-color: rgb(255, 14, 14);
+    flex: 1;
+}
+.caja9{
+    background-color: rgb(255, 14, 14);
+    flex: 1;
+}
+.caja10{
+    background-color: rgb(255, 14, 14);
+    flex: 1;
+}
+.caja11{
+    background-color: rgb(255, 14, 14);
+    flex: 1;
+}
+.section1 img{
+    width: 100px;
+    height: 100px;
+}
+.section2 button{
+    height: 50px;
+    width: 200px;
+    margin-top:50px ;
+    background-color: rgb(61, 61, 61);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: antiquewhite;
+}
+.boton1 {
+    background-color: #ffcffd; 
+}
+.boton1:active {
+    font-size: 20px;
+    background-color: rgb(169, 245, 245);
+    color: black;
+}
+.boton2 {
+    background-color: #ffcffd; 
+}
+.boton2:active {
+    font-size: 20px;
+    background-color: rgb(169, 245, 245);
+    color: black;
+}
+.boton3 {
+    background-color: #ffcffd; 
+}
+.boton3:active {
+    font-size: 20px;
+    background-color: rgb(169, 245, 245);
+    color: black;
+}
+.boton4 {
+    background-color: #ffcffd; 
+}
+.boton4:active {
+    font-size: 20px;
+    background-color: rgb(169, 245, 245);
+    color: black;
+}
+.caja3 img{
+    width: 100%;
+    height: 100%;
+}
+.caja3:hover {
+    opacity: 0.5;
+}
+.caja4 img{
+    text-align: center;
+    width: 100%;
+    height: 378px;
+}
+
+.caja5-1{
+    text-align: center;
+}
+.caja5-1 img{
+    width: 70px;
+    height: 50px;
+}
+.caja5-2 img{
+    width: 70px;
+    height: 50px;
+}
+.caja5-3 img{
+    width: 70px;
+    height: 50px;
+}
+.caja5-1 img:hover {
+    width: 100px;
+    height: 100px;
+}
+.caja5-2 img:hover {
+    width: 100px;
+    height: 100px;
+}
+.caja5-3 img:hover {
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes color{
+    0% {transform: translateX(0);}
+    50% {transform: translateX(20px);}
+    100% {transform: translateX(0);}
+}
+.caja1 img{
+    animation:color 3s infinite;
+}
+
+@keyframes transformacion1{
+    0% {opacity: 1;}
+    50% {opacity: 0.1;}
+    100% {opacity: 1;}
+}
+.caja4 img{
+    animation:transformacion1 3s infinite;
+}
+.caja6 img{
+    width: 100%;
+    height: 500px;
+}
+/* @keyframes trans2{
+    0% {transform: scale(1);
+    }
+    50% {transform: scale(1.1);
+    }
+    100% {transform: scale(1);
+    }
+
+
+{
+    border-radius: 10px;
+    animation: trans2 3s infinite;
+} */
+ .caja6 table{
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+ }
+ .tabla tr:nth-child(1) td{
+    border: 2px solid black;
+    background-color: wheat;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+ }
+ .tabla tr:nth-child(2) td{
+    border: 2px solid black;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+ }
+ .tabla tr:nth-child(3) td{
+    border: 2px solid black;
+    background-color: wheat;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+ }
+ .tabla tr:nth-child(4) td{
+    border: 2px solid black;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+ }
+ .tabla tr:nth-child(5) td{
+    border: 2px solid black;
+    background-color: wheat;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+ }
+ .tabla tr:nth-child(6) td{
+    border: 2px solid black;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+ }
+ .tabla tr:nth-child(7) td{
+    border: 2px solid black;
+    background-color: wheat;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+ }
+ .tabla tr:nth-child(8) td{
+    border: 2px solid black;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+ }
+ .tabla tr:nth-child(9) td{
+    border: 2px solid black;
+    background-color: wheat;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+ }
+.caja7-1 form{
+    background-color: rgb(180, 253, 253);
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+.caja7-1{
+    text-align: center;
+}
+.caja7-1 label{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.caja7-2 iframe{  
+    width: 100%;
+    height: 100%; 
+}
